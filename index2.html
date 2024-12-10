@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="Mydesign.css">
 <link rel="stylesheet" href="Mydesign2.css">
 <link rel="stylesheet" href="Mydesign3.css">
+<link rel="stylesheet" href="Design4.css">
 <!-- Font Link -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
 integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
@@ -20,10 +21,30 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         <div class="logo">
             <a href="#home" onclick>Villacruzada</a>
         </div>
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
+        <div class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#artwork">Art Works</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
+            <a href="#home">Home</a>
             <a href="#skills">Skills</a>
             <a href="#artwork">Art Works</a>
             <a href="#service">Service</a>
@@ -32,7 +53,8 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </header>
 
     <!---------------------------------Background Page------------------------------------------>
-  <div class='light x1'></div>
+    
+  <!--<div class='light x1'></div>
   <div class='light x2'></div>
   <div class='light x3'></div>
   <div class='light x4'></div>
@@ -49,22 +71,12 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
         <div class="home-content">
             <div class="home-box">
-            <h1>Hi I'm <span>Sydney</span></h1>
-            <div class="wordCarousel">
-            <h3>
-              <div>
-              <ul class="flip5">
-              <li>Animator</li>
-              <li>Writer</li>
-              <li>Editor</li>
-              <li>Coder</li>
-              <li>Artist</li>
-              </div>
+            <h1>Hi I'm <span>Sydney</span></h1> 
+            <h3 aria-label="Hi! I'm a Artist">
+              Hi! I'm a&nbsp;<span class="typewriter"></span>
             </h3>
-              
-          </div>
-        <p>I'm a college student from STI Santa Rosa, taking up  Bachelor in Multi Media Arts (BMMA)
-                I'm 20 years old currently 3rd year student.</p>
+        <p>a third-year Bachelor of Multimedia Arts (BMMA) student at STI College Santa Rosa. 
+          I’m passionate about creativity and enjoy working on graphic design, animation, and video editing.</p>
         
 
         <div class="social-icon">
@@ -74,7 +86,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
             
 
-        <a href="#" class="btn2">Hire Me</a>
+        <a href="#contact" class="btn2">Hire Me</a>
         </div>
             </div>
     </section>
@@ -82,6 +94,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!---------------------------------Skills Page------------------------------------------>
     <section class="skills" id="skills">
         <h2 class="heading">Skills</h2>
+        
         <div class="-skills-content">
             <div class="profile-skills">
                 <div>
@@ -134,14 +147,15 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!---------------------------------Art Works Page------------------------------------------>
 <section class="artwork" id="artwork">
     <h2 class="heading">My Art Works</h2>
+    <div class="card-box2">
     <div class="container">
         <div class="card">
           <img src="465597250_589718546904523_2076588498155839452_n.jpg">
-          <div class="card__head">Digital Art (Vilma Oc)</div>
+          <div class="card__head">Digital Art </div>
         </div>
         <div class="card">
           <img src="462567950_1248478272965829_5430706745202823447_n.jpg">
-          <div class="card__head">Digital Art (Ender human version Oc)</div>
+          <div class="card__head">Digital Art </div>
         </div>
         <div class="card">
           <img src="462538201_595448176350954_7178020181783547623_n.jpg">
@@ -149,7 +163,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
         </div>
         <div class="card">
           <img src="f1f00b8c-ee14-4a27-9501-d16e97c00ab0.jfif">
-          <div class="card__head">Pixel Art (Halloween)</div>
+          <div class="card__head">Pixel Art </div>
         </div>
         <div class="card">
           <img src="My_Studio_Logo-removebg-preview.png">
@@ -163,24 +177,25 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
       </div>
       <div class="card">
         <img src="464675390_1212684999821166_7483327402362473456_n.jpg">
-        <div class="card__head">Digital Art (Inktober Event)</div>
+        <div class="card__head">Digital Art </div>
       </div>
       <div class="card">
         <img src="Spider Oct.png">
-        <div class="card__head">Pixel Art (Inktober Event)</div>
+        <div class="card__head">Pixel Art </div>
       </div>
       <div class="card">
         <img src="fc7623b6-66b7-4f61-964e-0745c23c31c9.jfif">
-        <div class="card__head">Pixel Art (commission)</div>
+        <div class="card__head">Pixel Art </div>
       </div>
       <div class="card">
         <img src="462577901_2580048835537464_5181369180910386115_n.jpg">
-        <div class="card__head">Digital Art (Olivia Oc)</div>
+        <div class="card__head">Digital Art</div>
       </div>
     </div>
-      
+  
 <!---------------------------------Video Page------------------------------------------>
     <h2 class="heading">Animations</h2>
+    <br>
     <div class="video-box">
       <div class="video-container">
         <video width="320" height="240" controls>
@@ -210,6 +225,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     </div>
         </div>
       </div>
+    </div>
 </section>
 <!---------------------------------Service Page------------------------------------------>
 <section class="service" id="service">
@@ -287,11 +303,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
               </div>
             </a>
           </div>
-      
-          
-      
-          
-      
         </div>
       </div>
     </div>
@@ -299,37 +310,84 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!---------------------------------Contact Page------------------------------------------>
     <section class="contact" id="contact">
 <h2 class="heading">Contact <span>Me</span></h2>
-    <form action="">
-      <div class="input-box">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="number" placeholder="Phone Number" required>
-        <input type="text" placeholder="Subject">
-      </div>
-      <textarea name="" id="" col="30" rows="10" placeholder="Your Message"></textarea>
-      <br>
-      <input type="submit" value="Send Massage" class="btn2">
-    </form>
+<form  method="Post" id="form">
+  <div class="input-box">
+  <input type="hidden" name="access_key" value="ebaf6aa4-00bc-462b-a26c-e7be4251b0ef">
+
+  <input type="text" name="name" placeholder="Name"required>
+  <input type="email" name="email" placeholder="Email"required>
+  <textarea name="message"  rows="10" placeholder="Your Massage" reser="false"></textarea>
+</div>
+<br>
+  <button type="submit" class="btn2" >Submit</button>
+
+  <div id="result"></div>
+  
+</form>
     </section>
+    
 <!---------------------------------Footer Page------------------------------------------>
 <footer class="footer">
-    <div class="social">
-      <a href="https://www.facebook.com/profile.php?id=61569383414040" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-      <a href="https://www.youtube.com/channel/UCDjvwgfw3xVuowIZJHqAPdA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-      <a href="https://x.com/Foxadetail" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
-    <ul class="list">
-      <li href="#">FAQ</li>
-      <li href="#">Service</li>
-      <li href="#">About</li>
-      <li href="#">Contact</li>
-      <li href="#">Privacy Policies</li>
-    </ul>
-    <p2 class="copyright">
-      @ Cascade Artist | All Right Reserved
-    </p2>
+  <h4>Call me</h4>
+  <p>Phone: 0966-748-7868</p>
+  <div class="boxfoot">
+  <div class="social-icon">
+    <a href="https://www.facebook.com/profile.php?id=61569383414040" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.youtube.com/channel/UCDjvwgfw3xVuowIZJHqAPdA" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://x.com/Foxadetail" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+</div>
+</div>
+  <p class="copyright">
+    @ FoxStudio | All Right Reserved
+  </p>
 </footer>
 
+<!------------------------------java Script Area!---------------------------------------->
 <script src="javascript.js"></script>
+<script>
+  var quadimages = document.querySelectorAll("#quad figure");
+for(i=0; i<quadimages.length; i++) {
+  quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
+}
+
+const form = document.getElementById('form');
+const result = document.getElementById('result');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const object = Object.fromEntries(formData);
+  const json = JSON.stringify(object);
+  result.innerHTML = "Please wait..."
+
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                result.innerHTML = "Form submitted successfully";
+            } else {
+                console.log(response);
+                result.innerHTML = json.message;
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+        })
+        .then(function() {
+            form.reset();
+            setTimeout(() => {
+                result.style.display = "none";
+            }, 3000);
+        });
+});
+</script>
 </body>
 </html>

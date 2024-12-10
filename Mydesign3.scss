@@ -1,16 +1,18 @@
 .wordCarousel {
   font-size: 36px;
-  font-weight: 100;
+  font-weight: bold;
+  text-align: flex;
   color: #eee;
   div {
       overflow: hidden;
       position: relative;
+      padding-left: 100px;
       clear:right;
       height: 65px;
       padding-top: 10px;
       margin-top: -10px;
       li {
-          color: #f3f160;
+          color: #ffee00;
           font-weight: 700;
           padding: 0 10px;
           height: 45px;
